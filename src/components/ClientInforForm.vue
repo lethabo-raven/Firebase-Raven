@@ -23,7 +23,7 @@
             </div>
             </div>
             <div class="w-100"></div>
-            <div class="col-4">
+            <div class="col">
               <div >
               Client Address
               <br/>
