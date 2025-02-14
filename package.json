@@ -1,0 +1,35 @@
+{
+  "name": "inv-gen-2-0",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@progress/kendo-data-query": "^1.7.1",
+    "@progress/kendo-drawing": "^1.21.2",
+    "@progress/kendo-licensing": "^1.4.0",
+    "@progress/kendo-svg-icons": "^4.0.0",
+    "@progress/kendo-vue-animation": "^6.1.0",
+    "@progress/kendo-vue-data-tools": "^6.1.0",
+    "@progress/kendo-vue-dateinputs": "^6.1.0",
+    "@progress/kendo-vue-dropdowns": "^6.1.0",
+    "@progress/kendo-vue-form": "^6.1.0",
+    "@progress/kendo-vue-grid": "^6.1.0",
+    "@progress/kendo-vue-indicators": "^6.1.0",
+    "@progress/kendo-vue-inputs": "^6.1.0",
+    "@progress/kendo-vue-intl": "^6.1.0",
+    "@progress/kendo-vue-notification": "^6.1.0",
+    "@progress/kendo-vue-pdf": "^6.1.0",
+    "firebase": "^11.3.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.1.0"
+  }
+}
