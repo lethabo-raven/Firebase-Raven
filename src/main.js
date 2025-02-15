@@ -9,7 +9,7 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebase = initializeApp({
+const firebaseConfig = initializeApp({
   apiKey: "AIzaSyBtOenDc6esF3LovwKKVQGRd1WbEC8pfQM",
   authDomain: "raven-45c24.firebaseapp.com",
   projectId: "raven-45c24",
@@ -18,8 +18,8 @@ const firebase = initializeApp({
   appId: "1:662294851278:web:e8eec5e4eb4bc2d3626a9f",
   measurementId: "G-F6SKD9KRX1"
 });
-const analytics = getAnalytics(firebase);
-const app = createApp(App)
+const analytics = getAnalytics(firebaseConfig);
+const app = createApp(App);
 
 app.use(router);
 app.mount('#app');
